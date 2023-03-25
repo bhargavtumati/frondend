@@ -1,0 +1,40 @@
+<!--Exercise 3: In this HTML page, Create a form with all the fields as shown below. 
+
+1. First name
+2. Middle name
+3. Last name
+4. gender
+5. Phone number
+6. Date of Birth
+7. Current Address
+8. Qualification
+9. Email id
+10. Register and clear buttons
+11. Add validations for name, Email id, Qualification. and phone number should take only 10 numbers
+
+After completion of this form click on preview link to see your output and submit the assignment to gitHub. -->
+
+<html>
+<body>
+  <center>
+  <form style="margin: 0px 450px; border-radius:10px; background-color:#90EE90;">
+    <legend style="font-weight:bold">Registration Form</legend>
+      <table>
+        <tr>
+          <td>First Name</td><td><input type="text" required ></td>
+          </tr><tr>
+          <td>Middle Name</td><td><input type="text"></td>
+          </tr><tr>
+            <td>Last Name</td><td><input type="text" required></td>
+          </tr>
+        <tr><td>Gender</td><td><input type="radio">Male<input type="radio">Female</td></tr><tr>
+          <td>Phone Number</td><td><input type="text" maxlength="10"></td>
+        </tr>
+<tr><td>Date Of Birth</td><td><input type="date" required></td></tr><tr><td>Current Address</td><td><textarea name="comments" rows="10" cols="21"></textarea></td></tr><tr>
+  <td>Qualification</td><td><input type="text" required></td>
+</tr><tr><td>Email id</td><td><input type="email"></td></tr>      </table>  
+      <input type="submit"> <input type="reset" value="Clear">
+  </form>
+  </center>
+</body>
+</html>
