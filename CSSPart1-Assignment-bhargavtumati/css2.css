@@ -1,0 +1,11 @@
+p::first-line{
+  color: #ff0000;
+  font-variant:small-caps;
+}
+p~ul{
+  color:green;
+  font-weight:bold;
+}
+ul+ol{
+  background-color:yellow;
+}
