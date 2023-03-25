@@ -1,0 +1,105 @@
+<!--Exercise 2: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+  <head>
+    <style>
+      #para3{
+        text-indent: 50px;
+      }
+      #para4{
+        letter-spacing: 5px;
+      }
+      .para5{
+        line-height: 30px;
+      }
+      .para7{
+        float:left;
+      }
+      inpu[type=text],select{
+        width: 100%;
+        padding:12px 20px;
+        margin 8px;
+        display: inline-block;
+        border:1px solid#ccc;
+        border-radius:4px;
+        box: sizing border box;;
+      }
+      input[type=submit]{
+        width: 100%;
+        background-color:#4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 6;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+      }
+      input[type=submit]:hover{
+        background: color #459049;
+      }
+      div{
+        border: radius 5px;
+        background-color:#f2f2f2;
+        padding: 20px;
+      }
+      .para8{
+        width: height: 100px;   height:100px;
+        background-color:green;
+        position:relative;
+        left: 70px;
+        top:20px;
+      }
+      .para_8{
+         background-color:yellow;
+        position:absolute;
+        left: 100px;
+        top: 700px;
+      }
+      .para9{
+        
+        background-repeat:no-repeat;
+      background-size:auto;}
+    </style>
+  </head>
+<body>
+
+<!-- Exercise 2.1: Display text and apply CSS by using text-decoration property. -->
+<label style="text-decoration:underline">Welcome to bitlabs</label>
+<!-- Exercise 2.2: Display text in paragraphs and apply text transformatiotext: transform uppercase;rcase, lowercase. -->   
+<p style="text-transform:uppercase;">Vijayawada (formerly Bezawada) is the second largest city in the Indian state of Andhra Pradesh and is a part of the state's Capital Region. It is the administrative headquarters of the NTR district. It comprises NTR and part of Krishna district. Vijayawada lies on the banks of Krishna river surrounded by the hills of Eastern Ghats, known as Indrakeeladri Hills. It geographically lies on the center spot of Andhra Pradesh.</p>
+<!-- Exercise 2.3:  By using text-indent property of 50px, display text in the paragraph. Use id property to sepate with other text-->     
+<p id="para3">Google LLCis an American multinational technology company that focuses on search engine technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence,and consumer electronics.</p>
+<!-- Exercise 2.4 : Using letter spacing property with a value of 5px display the text. Use id property to sepate with other text-->
+<p id="para4">India, officially the Republic of India (Hindi: Bhārat Gaṇarājya),is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. </p>
+<!-- Exercise 2.5: Apply line height of 30px for the paragraph. Use class property to separate with other paragraph's -->
+<p class="para5">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+<!-- Exercise 2.6: Create a login form and style the form. Use br tag before creation of login form  -->
+<br>
+  <h3>Login form</h3>
+  <div>
+    <form action="/actionpage.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="your name.."your name.."><br>
+      <label for="name">Last Name</label>
+      <input type="text"id="lname" name="lastname" placeholder="your last name.."><br>
+    <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">canada</option>
+        <option value="usa">USA</option></select><br>
+      <input type="submit" value="submit">
+    </form>
+  </div>
+<!-- Exercise 2.7: Align text using float left, right property. Use class property to separate with other text-->
+<label class="para7">Welcome to bitLabs</label><br>
+<!-- Exercise 2.8:  Apply styles for the text using absolute and relative positions. Use class property to separate with other text-->
+  <label class="para8">Wish you happy learning at bitlabs</label><br>
+  <label class="para_8">welcome to india</label><br>
+<!-- Exercise 2.9: Display Hello World! with image as the background. -->
+  <br>
+  <br>
+<p style="background-image: url(https://th.bing.com/th/id/OIP.fv0XhXq26Lfio53VNI7Y_wHaEo?pid=ImgDet&rs=1);background-repeat:no-repeat;
+  height:100%; text-indent:155px; font-size:30px; color:white; ">Hello World!</p>
+</body>
+</html>
